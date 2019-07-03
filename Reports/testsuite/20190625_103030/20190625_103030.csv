@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testsuite,,,2019-06-25 10:30:35,2019-06-25 10:30:49,14.574s,FAILED
+,,,,,,
+Test Cases/Create_API,,,2019-06-25 10:30:35,2019-06-25 10:30:45,9.942s,PASSED
+"sendRequest(findTestObject(""UserRestService/OCR_URL""))",,,2019-06-25 10:30:36,2019-06-25 10:30:45,8.888s,PASSED
+,,,,,,
+Test Cases/Status_API,,,2019-06-25 10:30:45,2019-06-25 10:30:49,3.579s,FAILED
+"sendRequestAndVerify(findTestObject(""UserRestService/STATUS_API""))",,,2019-06-25 10:30:46,2019-06-25 10:30:49,3.168s,FAILED

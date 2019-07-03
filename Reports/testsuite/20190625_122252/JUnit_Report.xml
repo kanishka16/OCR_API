@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testsuite" time="15" tests="2" failures="0" errors="0">
+   <testsuite name="testsuite" tests="2" failures="0" errors="0" time="15" timestamp="2019-06-25 12:22:57" hostname="Kanishka Sikka - Kanishka-L" id="Test Suites/testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API_OCRAutomation\\Reports\\testsuite\\20190625_122252"/>
+         <property name="logFiles" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API_OCRAutomation\\Reports\\testsuite\\20190625_122252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kanishka Sikka - Kanishka-L"/>
+         <property name="hostAddress" value="10.10.30.240"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+      </properties>
+      <testcase name="Test Cases/Create_API" classname="Test Cases/Create_API" status="PASSED">
+         <system-out><![CDATA[2019-06-25 12:22:57 - [TEST_CASE][PASSED] - Test Cases/Create_API: Test Cases/Create_API
+
+2019-06-25 12:22:58 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestService/OCR_URL")): Send request and verify the response successfully
+
+2019-06-25 12:23:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - reqHeaders = request.getHttpHeaderProperties(): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - for ([i = 0, i < reqHeaders.size(), (i++)]): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - name = get(i).getName(): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - switch (name): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - case "Content-Type":: null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - getValue()).isEqualTo("application/json"): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - break: null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - name = get(i).getName(): null
+
+2019-06-25 12:23:07 - [TEST_STEP][PASSED] - switch (name): null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - case "Authorization":: null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - getValue()).isEqualTo(authorization): null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - break: null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - getRestRequestMethod()).isEqualTo("POST"): null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - isValidBody = customKeywords.check_Request_Body.validate_Request_Body(replace("
+", "").replaceAll("\s", "")): customKeywords.check_Request_Body.validate_Request_Body is PASSED
+
+2019-06-25 12:23:08 - [MESSAGE][PASSED] - customKeywords.check_Request_Body.validate_Request_Body is PASSED
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - assertThat(isValidBody).isEqualTo(true): null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-06-25 12:23:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - Document_Id = customKeywords.get_Response_String.extract_document_id(responseBodyContent, 1): customKeywords.get_Response_String.extract_document_id is PASSED
+
+2019-06-25 12:23:08 - [MESSAGE][PASSED] - customKeywords.get_Response_String.extract_document_id is PASSED
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - verifyGreaterThan(Document_Id, 0): Actual number '7,629' is greater than expected number '0'
+
+2019-06-25 12:23:08 - [MESSAGE][PASSED] - Actual number '7,629' is greater than expected number '0'
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - Request_Date = customKeywords.get_Response_String.extract_document_id(responseBodyContent, 2): customKeywords.get_Response_String.extract_document_id is PASSED
+
+2019-06-25 12:23:08 - [MESSAGE][PASSED] - customKeywords.get_Response_String.extract_document_id is PASSED
+
+2019-06-25 12:23:08 - [TEST_STEP][PASSED] - isValidDate = customKeywords.check_RequestStartDate.check_DateFormat(Request_Date): customKeywords.check_RequestStartDate.check_DateFormat is PASSED
+
+2019-06-25 12:23:09 - [MESSAGE][PASSED] - customKeywords.check_RequestStartDate.check_DateFormat is PASSED
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - assertThat(isValidDate).isEqualTo(true): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - customKeywords.check_RequestStartDate.date_converter(): customKeywords.check_RequestStartDate.date_converter is PASSED
+
+2019-06-25 12:23:09 - [MESSAGE][PASSED] - customKeywords.check_RequestStartDate.date_converter is PASSED
+
+2019-06-25 12:23:09 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-06-25 12:23:09 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Status_API" classname="Test Cases/Status_API" status="PASSED">
+         <system-out><![CDATA[2019-06-25 12:23:09 - [TEST_CASE][PASSED] - Test Cases/Status_API: Test Cases/Status_API
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - requestURL = findTestObject("UserRestService/STATUS_API"): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - newURL = requestURL.getRestUrl(): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - out.println(newURL): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - requestURL.setRestUrl(newURL.replace("?", "/") + Document_Id): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - out.println(requestURL.getRestUrl()): null
+
+2019-06-25 12:23:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(requestURL): Send request and verify the response successfully
+
+2019-06-25 12:23:11 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-06-25 12:23:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-06-25 12:23:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-06-25 12:23:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-06-25 12:23:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-06-25 12:23:12 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-06-25 12:23:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-06-25 12:23:12 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-25 12:22:57 - [TEST_SUITE][PASSED] - testsuite: Test Cases/Status_API]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

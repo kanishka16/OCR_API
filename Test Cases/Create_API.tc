@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a890453-137f-4b40-8024-26237629d7bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6d13fef-afaf-41d6-bb0e-8ed86120b0d7</id>
+      <masked>false</masked>
+      <name>User_Id</name>
+   </variable>
+</TestCaseEntity>

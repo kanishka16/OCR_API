@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7625'</initValue>
+      <name>Document_Id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://q25i8nrv0e.execute-api.us-east-1.amazonaws.com/dev/job'</initValue>
+      <name>Base_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic UVZUVXNlcjpRdnRQYXNzd29yZDAxMjM0NTY3ODkw'</initValue>
+      <name>authorization</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'application/json'</initValue>
+      <name>content</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\{\\&quot;[a-zA-Z]{1,}\\&quot;\\:\\&quot;[a-z]{1,}\\:\\/\\/[a-zA-Z0-9-.\\/_]{1,}\\.(jpg|JPG|PNG|png|pdf|PDF)\\&quot;\\}'</initValue>
+      <name>regex</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Request_Date</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

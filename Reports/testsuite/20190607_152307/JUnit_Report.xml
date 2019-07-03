@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testsuite" time="8" tests="1" failures="0" errors="1">
+   <testsuite name="testsuite" tests="1" failures="0" errors="1" time="8" timestamp="2019-06-07 15:23:11" hostname="Kanishka Sikka - Kanishka-L" id="Test Suites/testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API Demo Project\\Reports\\testsuite\\20190607_152307"/>
+         <property name="logFiles" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API Demo Project\\Reports\\testsuite\\20190607_152307\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kanishka Sikka - Kanishka-L"/>
+         <property name="hostAddress" value="10.10.31.2"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+      </properties>
+      <testcase name="Test Cases/Create_API" classname="Test Cases/Create_API" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:23:12 - [TEST_CASE][PASSED] - Test Cases/Create_API: Test Cases/Create_API
+
+2019-06-07 15:23:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("UserRestService/OCR_URL")): Send request successfully
+
+2019-06-07 15:23:18 - [MESSAGE][INFO] - HAR: C:\Users\Kanishka Sikka\Katalon Studio\API Demo Project\Reports\testsuite\20190607_152307\requests\main\0.har
+
+2019-06-07 15:23:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-07 15:23:18 - [TEST_STEP][PASSED] - out.println(response.getResponseText()): null
+
+2019-06-07 15:23:18 - [TEST_STEP][PASSED] - User_Id = customKeywords.get_Response_String.extract_Response_String(response.getResponseText()): customKeywords.get_Response_String.extract_Response_String is PASSED
+
+2019-06-07 15:23:18 - [MESSAGE][PASSED] - customKeywords.get_Response_String.extract_Response_String is PASSED
+
+2019-06-07 15:23:18 - [TEST_STEP][PASSED] - out.println(User_Id): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Status_API" classname="Test Cases/Status_API" status="ERROR">
+         <error type="ERROR" message="Test Cases/Status_API FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-07 15:23:18 - [TEST_CASE][ERROR] - Test Cases/Status_API: Test Cases/Status_API FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)
+
+
+2019-06-07 15:23:19 - [TEST_STEP][PASSED] - request = findTestObject("UserRestService/STATUS_API"): null
+
+2019-06-07 15:23:19 - [TEST_STEP][ERROR] - request.setRestUrl(findTestObject("UserRestService/STATUS_API") + User_Id): request.setRestUrl(findTestObject("UserRestService/STATUS_API") + User_Id) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)
+
+
+2019-06-07 15:23:19 - [MESSAGE][ERROR] - request.setRestUrl(findTestObject("UserRestService/STATUS_API") + User_Id) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-06-07 15:23:18 - [TEST_CASE][ERROR] - Test Cases/Status_API: Test Cases/Status_API FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 15:23:11 - [TEST_SUITE][ERROR] - testsuite: Test Cases/Status_API FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-06-07 15:23:11 - [TEST_SUITE][ERROR] - testsuite: Test Cases/Status_API FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.plus() is applicable for argument types: (java.lang.String) values: [840]
+Possible solutions: split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object), wait(), grep(), any()
+	at Status_API.run(Status_API:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559901187587.run(TempTestSuite1559901187587.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

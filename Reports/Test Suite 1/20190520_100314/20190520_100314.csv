@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 1,,,2019-05-20 10:03:19,2019-05-20 10:03:32,12.872s,PASSED
+,,,,,,
+Test Cases/CreateUserTestCase,,,2019-05-20 10:03:20,2019-05-20 10:03:30,9.851s,PASSED
+"sendRequest(findTestObject(""UserRestService/CreateUser""))",,,2019-05-20 10:03:20,2019-05-20 10:03:27,6.627s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-05-20 10:03:27,2019-05-20 10:03:29,2.415s,PASSED
+,,,,,,
+Test Cases/ListUsersTestCase,,,2019-05-20 10:03:30,2019-05-20 10:03:32,2.135s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-05-20 10:03:30,2019-05-20 10:03:32,1.591s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-05-20 10:03:32,2019-05-20 10:03:32,0.046s,PASSED

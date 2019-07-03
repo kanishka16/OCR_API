@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testsuite,,,2019-06-25 10:15:52,2019-06-25 10:15:54,2.175s,INCOMPLETE
+,,,,,,
+Test Cases/Create_API,,,2019-06-25 10:15:53,2019-06-25 10:15:54,1.001s,PASSED
+return null,,,2019-06-25 10:15:54,2019-06-25 10:15:54,0.007s,PASSED
+,,,,,,
+Test Cases/Status_API,,,2019-06-25 10:15:54,2019-06-25 10:15:54,0.016s,PASSED

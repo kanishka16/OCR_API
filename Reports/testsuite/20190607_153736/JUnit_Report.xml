@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testsuite" time="11" tests="2" failures="0" errors="0">
+   <testsuite name="testsuite" tests="2" failures="0" errors="0" time="11" timestamp="2019-06-07 15:37:39" hostname="Kanishka Sikka - Kanishka-L" id="Test Suites/testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API Demo Project\\Reports\\testsuite\\20190607_153736"/>
+         <property name="logFiles" value="C:\\Users\\Kanishka Sikka\\Katalon Studio\\API Demo Project\\Reports\\testsuite\\20190607_153736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kanishka Sikka - Kanishka-L"/>
+         <property name="hostAddress" value="10.10.31.2"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+      </properties>
+      <testcase name="Test Cases/Create_API" classname="Test Cases/Create_API" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:37:40 - [TEST_CASE][PASSED] - Test Cases/Create_API: Test Cases/Create_API
+
+2019-06-07 15:37:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("UserRestService/OCR_URL")): Send request successfully
+
+2019-06-07 15:37:48 - [MESSAGE][INFO] - HAR: C:\Users\Kanishka Sikka\Katalon Studio\API Demo Project\Reports\testsuite\20190607_153736\requests\main\0.har
+
+2019-06-07 15:37:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - out.println(response.getResponseText()): null
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - User_Id = customKeywords.get_Response_String.extract_Response_String(response.getResponseText()): customKeywords.get_Response_String.extract_Response_String is PASSED
+
+2019-06-07 15:37:48 - [MESSAGE][PASSED] - customKeywords.get_Response_String.extract_Response_String is PASSED
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - out.println(User_Id): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Status_API" classname="Test Cases/Status_API" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:37:48 - [TEST_CASE][PASSED] - Test Cases/Status_API: Test Cases/Status_API
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - request = findTestObject("UserRestService/STATUS_API"): null
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - out.println(request.getRestUrl()): null
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - request.setRestUrl(request.getRestUrl() + User_Id): null
+
+2019-06-07 15:37:48 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2019-06-07 15:37:50 - [MESSAGE][INFO] - HAR: C:\Users\Kanishka Sikka\Katalon Studio\API Demo Project\Reports\testsuite\20190607_153736\requests\main\1.har
+
+2019-06-07 15:37:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-07 15:37:50 - [TEST_STEP][PASSED] - out.println(request.getRestUrl()): null
+
+2019-06-07 15:37:50 - [TEST_STEP][PASSED] - out.println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 15:37:39 - [TEST_SUITE][PASSED] - testsuite: Test Cases/Status_API]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
